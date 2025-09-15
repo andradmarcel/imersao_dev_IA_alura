@@ -1,3 +1,4 @@
 /.env
 /backup_main_code
 /venv
+__pycache__/
