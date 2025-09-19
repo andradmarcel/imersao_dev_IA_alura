@@ -367,11 +367,11 @@ grafo = workflow.compile()
 
 # --- 5. VISUALIZAÇÃO E EXECUÇÃO DO AGENTE ---
 # Gera uma representação visual do nosso fluxograma.
-try:
-    graph_bytes = grafo.get_graph().draw_mermaid_png()
-    display(Image(graph_bytes))
-except Exception as e:
-    print(f"Não foi possível gerar a imagem do grafo. Erro: {e}")
+# try:
+#     graph_bytes = grafo.get_graph().draw_mermaid_png()
+#     display(Image(graph_bytes))
+# except Exception as e:
+#     print(f"Não foi possível gerar a imagem do grafo. Erro: {e}")
 
 # Lista de perguntas para testar todas as rotas possíveis do nosso agente.
 perguntas_teste = [
