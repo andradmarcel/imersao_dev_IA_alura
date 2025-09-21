@@ -102,7 +102,7 @@ def triagem(mensagem: str) -> Dict:
 
 docs = []
 # Criamos uma caixinha `pasta_politicas` que guarda um "mapa" para a pasta chamada "politicas".
-pasta_politicas = Path("politicas")
+pasta_politicas = Path("RAG_Politicas")
 
 # Usamos um laço `for` para olhar cada item que o mapa encontrar.
 # `pasta_politicas.glob("*.pdf")` é como dizer: "No local que esse mapa aponta, me dê todos os arquivos que terminam com .pdf".

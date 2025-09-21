@@ -66,7 +66,7 @@ def triagem(mensagem: str) -> Dict:
     
 
 docs = []
-pasta_politicas = Path("politicas")
+pasta_politicas = Path("RAG_Politicas")
 
 for documento in pasta_politicas.glob("*.pdf"):
     try:
